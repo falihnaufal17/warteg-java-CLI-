@@ -39,6 +39,7 @@ public class Menu_makanan {
         //System.out.println("Pilih menu makanan: ");
         //milih = in.nextInt();
         //tanya
+        
             System.out.println("Dibungkus atau makan di sini? [1/2]");
             System.out.println("1 = Dibungkus");
             System.out.println("2 = Makan disini");
@@ -246,25 +247,8 @@ public class Menu_makanan {
                     System.out.println("Masukan salah!, silahkan masukan dengan benar!");
                 }
         //bukti pembelian
-        System.out.println("                            +-------------------------------+");
-        System.out.println("                            |        Bukti pembelian        |");
-        System.out.println("                            +-------------------------------+");
-        System.out.println("        +----+------------------+--------------------+-------+--------------+");
-        System.out.println("        | No | Menu Makanan     | Porsi | Jumlah harga |");
-        System.out.println("        +----+------------------+--------------------+-------+--------------+");
-        System.out.println("        | 1  | Nasi             | " + porsi1 + "   | " + harga1 + " |");
-        System.out.println("        | 2  | Ayam goreng      | " + porsi2 + "   | " + harga2 + " |");
-        System.out.println("        | 3  | Tahu             | " + porsi3 + "   | " + harga3 + " |");
-        System.out.println("        | 4  | Tempe            | " + porsi4 + "   | " + harga4 + " |");
-        System.out.println("        | 5  | Telor bebek asin | " + porsi5 + "   | " + harga5 + " |");
-        System.out.println("        | 6  | Mie Baso         | " + porsi6 + "   | " + harga6 + " |");
-        System.out.println("        +----+------------------+--------------------+-------+--------------+");
-        System.out.println("        | Total porsi: " + totalporsi + "                                    ");
-        System.out.println("        | Total harga: " + totalharga + "                                    ");
-        System.out.println("        | Total nambah: " + totalnambah + "                                  ");
-        System.out.println("        | Bayar: " + bayar + "                                               ");
-        System.out.println("        | Kembalian: " + kembalian + "                                       ");
-        System.out.println("        +----------------------------------------------------+--------------+");
+        System.out.println("Bayar: " + bayar);
+        System.out.println("Kembalian: " + kembalian);
+        System.out.println("Terima kasih atas pembeliannya!");
         }
-    
     }
